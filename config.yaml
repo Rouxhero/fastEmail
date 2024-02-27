@@ -1,0 +1,5 @@
+invalid:
+  password: password
+  port: 587
+  smtp: stmp.mail.com
+  user: Please set your stmp account in configuration tab
