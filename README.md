@@ -2,7 +2,13 @@
 
 ## Index
 
-
+- [Install](#install)
+- [Usage](#usage)
+- [Who to use](#who-to-use)
+  - [First panel](#first-panel)
+  - [Second panel](#second-panel)
+  - [Third panel](#third-panel)
+  - [Type of template](#type-of-template)
 
 # Install 
 
@@ -74,4 +80,21 @@ You can add multiple email configuration.
     port: <port>
 ```
 
+
+## Type of template
+
+Here an example of a template : 
+```html
+
+<h1> Hello {{name}} </h1>
+
+<p> This is a test email </p>
+
+<p> Your age is : {{age}} </p>
+
+Regards,
+{{signature}}
+```
+
+If y have set you signature in `main.py:33` you can fill the variable `signature` in the first panel, with it : `!signature()`. 
 
